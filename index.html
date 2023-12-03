@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="multiple_alarm">
+            <h2>Multiple Timers App</h2>
+            <div id="timercart">
+                <h4>Set Time :</h4>
+                <div id="time_display">
+                    <input type="number" name="hr" id="hr" placeholder="hh"   min="0" max="99" >
+                    <p>:</p>
+                    <input type="number" name="min" id="min" placeholder="mm"   min="0" max="99" >
+                    <p>:</p>
+                    <input type="number" name="sec" id="sec" placeholder="ss"  min="0" max="99" >
+                </div>
+                <button id="timeSet_button">Set</button>
+            </div>
+        </div>
+
+        <div id="currentTimers">
+            <div>
+                <h4>Current Timers</h4>
+            </div>
+            <div id="noTimer_contaner"></div>
+            <div id="displayTimeCart">
+            </div>
+        </div>
+
+        <audio id="timer-end">
+            <source src="audio/mixkit-interface-hint-notification-911.wav" >
+          </audio>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

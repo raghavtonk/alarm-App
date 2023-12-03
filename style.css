@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Bai+Jamjuree&family=DM+Sans:opsz@9..40&family=Inter&family=Poppins&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #1D1D23;;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+#multiple_alarm>h2{
+    color: #FFF;
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#timercart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    width: 849px;
+height: 132px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #34344A;
+}
+#timercart>h4{
+    width: 142px;
+    color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#time_display{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 309px;
+    color: #FFF;
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+#time_display>input{
+    cursor: pointer;
+    width: 50px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    background-color: inherit;
+    font-size: 28px;
+    color: #FFF;
+    font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#timeSet_button{
+    width: 124px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 26px;
+background: #F0F757;
+cursor: pointer;
+}
+
+
+
+#currentTimers>div:nth-child(1){
+    width: 413px;
+height: 66px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+flex-shrink: 0;
+border-radius: 50px;
+background: #39393E;
+}
+#currentTimers>div:nth-child(1)>h4{
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+/* dynamic time cart css */
+
+#noTimer{
+    color: #FFF;
+text-align: center;
+
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#displayTimeCart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+#time_display1{
+    
+    
+    align-items: center;
+    width: 309px;
+    color: #FFF;
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.dTime{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    width: 849px;
+height: 132px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #34344A;
+}
+.dTime>h4{
+    width: 142px;
+    color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#timeDel_button{
+    width: 124px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 26px;
+    background: #F0F757;
+    cursor: pointer;
+}
